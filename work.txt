@@ -1,0 +1,4 @@
+npm create vite@latest client -- --template react
+# 
+npm install @chakra-ui/react @emotion/react @emotion/styled @mui/icons-material @mui/material @mui/x-charts @paypal/react-paypal-js @reduxjs/toolkit @shadcn/ui @toolpad/core antd axios formik framer-motion prop-types react-helmet react-medium-image-zoom react-redux react-router-dom react-slick recharts shadcn-ui slick-carousel yup
+
