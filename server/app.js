@@ -18,5 +18,13 @@ mongoose
    .then(() => console.log("MongoDB connected"))
    .catch((err) => console.log(err));
 
+// define routes
+const authRoutes = require("./routes/auth");
+const managerRoutes = require("./routes/managerRoute");
+const productRoutes = require("./routes/productRoute");
+// use routes
+app.use("/api/auth", authRoutes);
+app.use("/api/manager", managerRoutes);
+app.use("/api/product", productRoutes);
 // exports app
 module.exports = app;
